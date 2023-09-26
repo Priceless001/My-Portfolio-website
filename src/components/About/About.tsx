@@ -3,13 +3,13 @@ import { Container } from "./styles";
 import cssIcon from "../../assets/css.png";
 import htmlIcon from "../../assets/html.png";
 import jsIcon from "../../assets/javascript.png";
-import nodeIcon from "../../assets/nodejs.png";
+// import nodeIcon from "../../assets/nodejs.png";
 import reactIcon from "../../assets/reactjs.png";
 import tailwindIcon from "../../assets/tailwind.png";
-import bootstrapIcon from "../../assets/bootstrap.png";
+// import bootstrapIcon from "../../assets/bootstrap.png";
 import materializeIcon from "../../assets/materialize.png"
-import styledcomponentsIcon from "../../assets/styled-components.png"
-import vueIcon from "../../assets/vue.png";
+// import styledcomponentsIcon from "../../assets/styled-components.png"
+// import vueIcon from "../../assets/vue.png";
 // import manImage from "../../assets/codewunder.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -48,7 +48,7 @@ export function About(){
 
           <div className="skills">
           <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-            <img src={vueIcon} alt="Vue" />
+            {/* <img src={vueIcon} alt="Vue" /> */}
           </ScrollAnimation>
           </div>
 
@@ -71,7 +71,7 @@ export function About(){
           </div>
           <div className="skills">
           <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
-            <img src={nodeIcon} alt="Node" />
+            {/* <img src={nodeIcon} alt="Node" /> */}
           </ScrollAnimation>
           </div>
 
@@ -83,7 +83,7 @@ export function About(){
           
           <div className="skills">
           <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-            <img src={bootstrapIcon} alt="Bootstrap" />
+            {/* <img src={bootstrapIcon} alt="Bootstrap" /> */}
           </ScrollAnimation>
           </div>
           
@@ -95,7 +95,7 @@ export function About(){
 
           <div className="skills">
           <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-            <img src={styledcomponentsIcon} alt="styledcomponents Icon" />
+            {/* <img src={styledcomponentsIcon} alt="styledcomponents Icon" /> */}
           </ScrollAnimation>
           </div>
 

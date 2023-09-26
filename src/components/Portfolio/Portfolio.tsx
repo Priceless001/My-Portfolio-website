@@ -7,7 +7,7 @@ import htmlIcon from "../../assets/html.png";
 import cssIcon from "../../assets/css.png";
 import jsIcon from "../../assets/javascript.png";
 import sassIcon from "../../assets/sass.png";
-import typescriptIcon from "../../assets/typescript.png";
+// import typescriptIcon from "../../assets/typescript.png";
 import styledcomponentsIcon from "../../assets/styled-components.png";
 
 
@@ -142,7 +142,7 @@ export function Portfolio(){
             <footer>
               <ul className="tech-list">
                 <li><img src={reactIcon} alt="React Icon" /></li>
-                <li><img src={typescriptIcon} alt="Typescript Icon" /></li>
+                {/* <li><img src={typescriptIcon} alt="Typescript Icon" /></li> */}
                 <li><img src={cssIcon} alt="CSS Icon" /></li>                
             </ul>
             </footer>
