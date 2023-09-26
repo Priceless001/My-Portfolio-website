@@ -4,7 +4,7 @@ import reactIcon from '../../assets/reactjs.png'
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import instagramIcon from '../../assets/instagram.png'
-import devtoIcon from '../../assets/dev-to.svg'
+// import devtoIcon from '../../assets/dev-to.svg'
 
 export function Footer() {
   return (
