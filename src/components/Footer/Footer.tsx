@@ -43,14 +43,6 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-
-        <a
-          href="https://dev.to/codewunder"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={devtoIcon} alt="Devto" />
-        </a>
       </div>
     </Container>
   )

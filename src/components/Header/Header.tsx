@@ -19,8 +19,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>¢ode</span>
-          <span>wunder</span>          
+          <span>Precious</span>          
         </HashLink>
 
         <input
@@ -45,12 +44,6 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href="https://codewunder-blog.vercel.app">
-           My Blog
-          </a>
-          <a href="https://drive.google.com/file/d/12KUdysgyb7aOAIN8W39AMSlWiqkC_jF8/view?usp=drive_link" className="button">
-           Download CV
-          </a>
         </nav>
 
         <div
