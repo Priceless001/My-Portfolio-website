@@ -10,12 +10,11 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>¢ode</span>
-        <span>wunder</span>
+        <span>Precious</span>
       </a>
       <div>
         <p>
-          © 2023 Codewunder<img src={reactIcon} alt="React" />          
+          © 2023 Precious<img src={reactIcon} alt="React" />          
         </p>
       </div>
 
